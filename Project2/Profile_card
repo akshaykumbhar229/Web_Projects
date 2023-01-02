@@ -1,1 +1,23 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href=".//profilecard.css">
+	<link rel="stylesheet" href="./font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.css">
+</head>
+<body>
+	<div id="parent">
+		<div id="child">
+			 <h3><span style="color:silver"><i class="fa fa-apple fa-3x" aria-hidden="true"></i></span>Card</h3>
+			<img src="./Ak2.jpg" alt=""><br><br>
+		</div>
+		<div class="circle"><i class="fa fa-apple fa-3x" aria-hidden="true"></i></i></div>
+		<h1><b>AkshayRaje</b></h1>
+		<b><p>Something big.somthing that coulden't happen somewhere else.</p></b>
+	</div>
+</body>
+</html>
