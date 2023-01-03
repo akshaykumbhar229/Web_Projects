@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .Parent1{
+            display: flex; 
+		}
+        .Parent{
+            display: flex;
+			/* margin-top: 5px; */
+		}
+        #Parent1{
+            text-align: center; 
+		}
+        .Parent,div{
+            width: 820px;
+            border: 1px solid white;
+            text-align: center;
+            /* padding: 5px; */
+            justify-content: center;
+            align-items: center;
+            align-self: center;
+        }
+        .a1{
+            width: 820px;
+            height: 40px; 
+            background: rgb(234, 231, 231); 
+		
+		}
+        .a2{
+            height: 77px;
+            background-color: rgb(98, 165, 247); 
+			color: white;
+		}
+
+        .a3{
+            height: 77px;
+            background-color: chartreuse;
+			color: white;
+		 }
+        .a4{
+            height: 77px;
+            background-color: hotpink;
+			color: white; 
+		 }
+        .a5{
+            height: 77px;
+            background-color: rgb(3, 255, 171);
+			color: white;
+		 }
+        .a6{
+            height: 77px;
+            background-color: orange;
+			color: white;
+		}
+    </style>
+</head>
+<body>
+	<b>Project No: 4</b>
+    <div class="Parent1">
+            <div class="a1">Monday</div>
+            <div class="a1">Tuesday</div>
+            <div class="a1">Wednesday</div>
+            <div class="a1">Thursday</div>
+            <div class="a1">Friday</div>
+            <div class="a1">Saturday</div>
+            <div class="a1">Sunday</div>
+        </div>
+    <div id="Parent">
+        <div class="Parent">
+            <div class="a2">Public Swim<br> 06:30-10:30</div>
+            <div class="a2">Public Swim<br> 06:30-09:00</div>
+            <div class="a2">Public Swim<br> 06:30-09:00</div>
+            <div class="a2">Public Swim<br> 06:30-11:15</div>
+            <div class="a2">Public Swim<br> 06:30-09:00</div>
+            <div class="a3">Lane Swim<br> 08:00-09:00</div>
+            <div class="a3">Lane Swim<br> 08:00-09:00</div>
+        </div><br>
+        <div class="Parent">
+            <div class="a4">Aquacise<br>1030-11:15</div>
+            <div class="a4">Aqua Jog<br>9015-10:00</div>
+            <div class="a5">Education <br> Swimming Lessons <br>09:00-12:00</div>
+            <div class="a4">Aquacise<br>11:15-12:00</div>
+            <div class="a5">Education <br> Swimming Lessons<br>09:00-12:00</div>
+            <div class="a6">Oldham Active <br>Kids Swimming<br>Lessons<br>09:00-13:00</div>
+            <div class="a2">Public Swim<br>09:00-11:00</div>
+        </div><br>
+        <div class="Parent">
+            <div class="a3">Lane Swim <br>11:30-13:00</div>
+            <div class="a4">Parent & Baby <br>class <br>09:30-10:15</div>
+            <div class="a3">Lane Swim <br>11:30-13:00</div>
+            <div class="a3">Lane Swim <br>11:30-13:00</div>
+            <div class="a3">Lane Swim <br>11:30-13:00</div>
+            <div class="a4">Parent & Baby <br>09:30-10:15</div>
+            <div class="a4">Aquacise<br>11:00-11:45</div>
+        </div><br>
+		<div class="Parent">
+			<div class="a5">Education<br>Swimming Lessons</div>
+			<div class="a2">Public Swim<br>10:00-11:45</div>
+			<div class="a2">Public Swim<br>13:00-16:00</div>
+			<div class="a5">Education<br>Swimming Lessons</div>
+			<div class="a6">Oldham Active<br>Kids Swimming</div>
+			<div class="a2">Public Swim <br>13:00-17:00</div>
+			<div class="a2">Public Swim <br>11:45-13:00</div>      
+		</div> 
+    </div>
+</body>
+</html>
