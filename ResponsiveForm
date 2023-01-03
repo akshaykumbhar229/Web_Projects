@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+            padding: 0px;
+            outline: none;
+            box-sizing: border-box;
+        }
+        body{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 40px;
+            background: linear-gradient(100deg,rgb(29, 201, 178)10%,
+                        rgb(201, 2, 228)60%);
+            }
+            .main{
+                width: 685px;
+                height: 410px;
+                background-color: white; 
+                padding: 25px 40px 10px 40px;
+            }
+            .main .formname{
+                text-align: center;
+                font-size: 35px;
+                font-weight: 600;
+                background: -webkit-linear-gradient(right,rgb(25, 240, 240),
+                 rgb(176, 22, 207),rgb(25, 240, 240), rgb(176, 22, 207));
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+            .div1{
+                display: flex;
+                margin-top: 50px;
+            }
+            .label{
+                margin-left: 60px;
+            }
+            .child1{
+                height: 20px;
+                border: none;
+                width: 270px;
+                border-bottom: 1px solid gainsboro;
+                transition: all 0.3s ease;
+            }
+            .child2{
+                height: 20px;
+                margin-left: 60px;
+                border: none;
+                width: 270px;
+                border-bottom: 1px solid gainsboro;
+            }
+            .div2{
+                display: flex;
+                margin-top: 40px;
+            }
+            .div3{
+                margin-top: 40px;
+            }
+            .child3{
+                height: 20px;
+                /* margin-left: 60px; */
+                border: none;
+                width: 600px;
+                border-bottom: 1px solid gainsboro;
+            }
+            .submit{
+                width: 200px;
+                height: 40px;
+                border: none;
+                color: white;
+                background: linear-gradient(100deg,rgb(29, 201, 178)10%,
+                        rgb(201, 2, 228)60%);
+            }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="formname">Rsponsiv Contact us Form</div>
+        <form action="">
+            <div class="div1">
+                <div>
+                    <label for="" >First Name</label><br>
+                    <input type="text" required class="child1">
+                </div>
+                <div>
+                    <label for=""class="label">Last Name</label><br>
+                    <input type="text" required class="child2">
+                </div>
+            </div>
+            <div class="div2">
+                <div>
+                    <label for="">Email Address</label>
+                    <input type="text" required class="child1">
+                </div>
+                <div >
+                    <label for=""class="label">Website Name</label>
+                    <input type="text" required class="child2">
+                </div>
+            </div>
+           <div class="div3">
+                <div class="textarea">
+                    <label for="">Write your message</label><br>
+                    <input type="text" class="child3">
+                    <br />
+                    <br />
+                </div>
+                <div>
+                    <input type="submit" value="SUBMIT"class="submit">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
