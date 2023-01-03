@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./ChrisCornell.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>	
+	<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+	<div id="main">
+		
+		<img src="./CHRIS CORNELL.jpg" id="img">
+		<div id="t1"><h1>CHRIS CORNELL</h1></div>
+		<!-- <div id="t2"><h4>#KEEPTHEPROMISE</h4></div> -->
+		<div id="t2"><h3>#KEEPTHEPROMISE</h3></div>
+		<div id="year"><h5>1964 - 2017</h5></div>
+		<div id="line"><h5>__________________________________________</h5></div>
+		<div id="line1"><h6><i>THE VOICE OF A GENERATION. AN ARTIST FOR</i></h6></div>
+		<div id="line2"><h6><i>ALL TIME</i></h6></div>
+		
+	    <div id="NAME">
+			<label for="">YOUR NAME</label><br>
+			<input type="text">
+		</div>
+		<div id="EMAIL">
+			<label for="" style="color: white;">YOUR EMAIL</label><br>
+			<input type="text">
+		</div>
+		<div id="TRIBUTE">
+			<label for="">TRIBUTE</label>
+		</div>  
+	</div>
+<!-- 
+	<div>
+		<div></div>
+		<div></div>
+		<div></div>
+	</div> -->
+</body>
+</html>
